@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d2cdcd47;
+  padding: 40px;
+  gap: 10px;
+  border-radius: 16px;
+}
+
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.select {
+  width: 60px;
+}
+
+.error {
+  color: red;
+}
+
+.span {
+  border: 1px solid #d9d9d9;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
